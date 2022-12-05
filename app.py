@@ -16,7 +16,7 @@ MODEL_PATH = r"model.h5"
 max_words = 5000
 max_len=50
 EMBEDDING_DIM = 32
-tokenizer_file = 'model/tokenizer.pkl'
+tokenizer_file = 'tokenizer.pkl'
 wordnet = WordNetLemmatizer()
 regex = re.compile('[%s]' % re.escape(string.punctuation))
 
