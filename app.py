@@ -55,9 +55,9 @@ def Load_model():
 if __name__ == '__main__':
    st.title('Political Tweet Sentiment Classification app')
    st.write('A simple sentiment analysis classification app')
-   st.info('Model and tokenizer loaded')
+#    st.info('Model and tokenizer loaded')
    st.subheader('Input the Tweet below')
-   sentence = st.text_area('Enter your news content here',height=200)
+   sentence = st.text_area('Enter your tweet here',height=200)
    predict_btt = st.button('predict')
    model, session = Load_model()
 
