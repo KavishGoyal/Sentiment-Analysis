@@ -1,6 +1,9 @@
 from keras import backend as K
 from tensorflow.keras.models import Model, load_model
 import streamlit as st
+import nltk
+nltk.download("stopwords")
+mltk.downloads('punkt')
 from nltk.tokenize import word_tokenize
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 import pickle
